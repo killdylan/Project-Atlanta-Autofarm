@@ -1,0 +1,77 @@
+ while wait(2) do  
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-199, 17, -112)})
+tween:Play()
+fireproximityprompt(game:GetService("Workspace").Restocking.Part.ProximityPrompt)
+wait(1.4)
+ if game.Players.LocalPlayer.Backpack:FindFirstChild("Grey") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-200, 17, -132)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Grey.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Green") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-199, 17, -152)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Green.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("White") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-215, 17, -133)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.White.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Black") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-214, 17, -153)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Black.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Purple") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-228, 17, -133)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Purple.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Blue") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-228, 17, -153)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Blue.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Pink") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-251, 17, -133)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Pink.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Red") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-251, 17, -153)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Red.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Orange") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-264, 17, -133)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Orange.ProximityPrompt)
+elseif
+game.Players.LocalPlayer.Backpack:FindFirstChild("Brown") then
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.2, Enum.EasingStyle.Linear)
+tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-264, 17, -153)})
+tween:Play()
+wait(1.4)
+fireproximityprompt(game:GetService("Workspace").Restocking.Brown.ProximityPrompt)
+end
+end
